@@ -38,7 +38,7 @@ resource symbolicname 'Microsoft.App/jobs@2023-04-01-preview' = {
         scale: {
           minExecutions: 0
           maxExecutions: 1
-          pollingIntervall: 1
+          pollingInterval: 1
           rules: [
             {
               name: 'azure-pipelines'
