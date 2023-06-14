@@ -91,7 +91,7 @@ resource symbolicname 'Microsoft.App/jobs@2023-04-01-preview' = {
               secretRef: 'azp-url'
             }
           ]
-          image: '${acr.properties.loginServer}/${imageName}:latest'
+          image: '${acr.properties.loginServer}/${imageName}'
           name: jobName
           resources: {
             cpu: json('1')
